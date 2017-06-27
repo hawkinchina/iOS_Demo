@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1864774A1C51D9FD00444C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186477491C51D9FD00444C90 /* main.m */; };
+		1864774D1C51D9FD00444C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864774C1C51D9FD00444C90 /* AppDelegate.m */; };
+		186477501C51D9FD00444C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864774F1C51D9FD00444C90 /* ViewController.m */; };
+		186477531C51D9FD00444C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186477511C51D9FD00444C90 /* Main.storyboard */; };
+		186477551C51D9FD00444C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186477541C51D9FD00444C90 /* Assets.xcassets */; };
+		186477581C51D9FD00444C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186477561C51D9FD00444C90 /* LaunchScreen.storyboard */; };
+		186477631C51D9FD00444C90 /* FlowFingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186477621C51D9FD00444C90 /* FlowFingerTests.m */; };
+		1864776E1C51D9FD00444C90 /* FlowFingerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864776D1C51D9FD00444C90 /* FlowFingerUITests.m */; };
+		1864777D1C51DB2800444C90 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864777C1C51DB2800444C90 /* CustomView.m */; };
+		188AA2551D880C59005932F6 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AA2541D880C59005932F6 /* GuideViewController.m */; };
+		188AA2581D881D9F005932F6 /* SAPGuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AA2571D881D9F005932F6 /* SAPGuidePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1864775F1C51D9FD00444C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1864773D1C51D9FD00444C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186477441C51D9FD00444C90;
+			remoteInfo = FlowFinger;
+		};
+		1864776A1C51D9FD00444C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1864773D1C51D9FD00444C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186477441C51D9FD00444C90;
+			remoteInfo = FlowFinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186477451C51D9FD00444C90 /* FlowFinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowFinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186477491C51D9FD00444C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1864774B1C51D9FD00444C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1864774C1C51D9FD00444C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1864774E1C51D9FD00444C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1864774F1C51D9FD00444C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186477521C51D9FD00444C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186477541C51D9FD00444C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186477571C51D9FD00444C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186477591C51D9FD00444C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1864775E1C51D9FD00444C90 /* FlowFingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186477621C51D9FD00444C90 /* FlowFingerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowFingerTests.m; sourceTree = "<group>"; };
+		186477641C51D9FD00444C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186477691C51D9FD00444C90 /* FlowFingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1864776D1C51D9FD00444C90 /* FlowFingerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowFingerUITests.m; sourceTree = "<group>"; };
+		1864776F1C51D9FD00444C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1864777B1C51DB2800444C90 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = ../CustomView.h; sourceTree = "<group>"; };
+		1864777C1C51DB2800444C90 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = ../CustomView.m; sourceTree = "<group>"; };
+		188AA2531D880C59005932F6 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		188AA2541D880C59005932F6 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		188AA2561D881D9F005932F6 /* SAPGuidePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPGuidePageViewController.h; sourceTree = "<group>"; };
+		188AA2571D881D9F005932F6 /* SAPGuidePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPGuidePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186477421C51D9FD00444C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1864775B1C51D9FD00444C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186477661C51D9FD00444C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1864773C1C51D9FD00444C90 = {
+			isa = PBXGroup;
+			children = (
+				186477471C51D9FD00444C90 /* FlowFinger */,
+				186477611C51D9FD00444C90 /* FlowFingerTests */,
+				1864776C1C51D9FD00444C90 /* FlowFingerUITests */,
+				186477461C51D9FD00444C90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186477461C51D9FD00444C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186477451C51D9FD00444C90 /* FlowFinger.app */,
+				1864775E1C51D9FD00444C90 /* FlowFingerTests.xctest */,
+				186477691C51D9FD00444C90 /* FlowFingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186477471C51D9FD00444C90 /* FlowFinger */ = {
+			isa = PBXGroup;
+			children = (
+				1864777B1C51DB2800444C90 /* CustomView.h */,
+				1864777C1C51DB2800444C90 /* CustomView.m */,
+				1864774B1C51D9FD00444C90 /* AppDelegate.h */,
+				1864774C1C51D9FD00444C90 /* AppDelegate.m */,
+				188AA2531D880C59005932F6 /* GuideViewController.h */,
+				188AA2541D880C59005932F6 /* GuideViewController.m */,
+				188AA2561D881D9F005932F6 /* SAPGuidePageViewController.h */,
+				188AA2571D881D9F005932F6 /* SAPGuidePageViewController.m */,
+				1864774E1C51D9FD00444C90 /* ViewController.h */,
+				1864774F1C51D9FD00444C90 /* ViewController.m */,
+				186477511C51D9FD00444C90 /* Main.storyboard */,
+				186477541C51D9FD00444C90 /* Assets.xcassets */,
+				186477561C51D9FD00444C90 /* LaunchScreen.storyboard */,
+				186477591C51D9FD00444C90 /* Info.plist */,
+				186477481C51D9FD00444C90 /* Supporting Files */,
+			);
+			path = FlowFinger;
+			sourceTree = "<group>";
+		};
+		186477481C51D9FD00444C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186477491C51D9FD00444C90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186477611C51D9FD00444C90 /* FlowFingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				186477621C51D9FD00444C90 /* FlowFingerTests.m */,
+				186477641C51D9FD00444C90 /* Info.plist */,
+			);
+			path = FlowFingerTests;
+			sourceTree = "<group>";
+		};
+		1864776C1C51D9FD00444C90 /* FlowFingerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1864776D1C51D9FD00444C90 /* FlowFingerUITests.m */,
+				1864776F1C51D9FD00444C90 /* Info.plist */,
+			);
+			path = FlowFingerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186477441C51D9FD00444C90 /* FlowFinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186477721C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFinger" */;
+			buildPhases = (
+				186477411C51D9FD00444C90 /* Sources */,
+				186477421C51D9FD00444C90 /* Frameworks */,
+				186477431C51D9FD00444C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowFinger;
+			productName = FlowFinger;
+			productReference = 186477451C51D9FD00444C90 /* FlowFinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1864775D1C51D9FD00444C90 /* FlowFingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186477751C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFingerTests" */;
+			buildPhases = (
+				1864775A1C51D9FD00444C90 /* Sources */,
+				1864775B1C51D9FD00444C90 /* Frameworks */,
+				1864775C1C51D9FD00444C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186477601C51D9FD00444C90 /* PBXTargetDependency */,
+			);
+			name = FlowFingerTests;
+			productName = FlowFingerTests;
+			productReference = 1864775E1C51D9FD00444C90 /* FlowFingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186477681C51D9FD00444C90 /* FlowFingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186477781C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFingerUITests" */;
+			buildPhases = (
+				186477651C51D9FD00444C90 /* Sources */,
+				186477661C51D9FD00444C90 /* Frameworks */,
+				186477671C51D9FD00444C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1864776B1C51D9FD00444C90 /* PBXTargetDependency */,
+			);
+			name = FlowFingerUITests;
+			productName = FlowFingerUITests;
+			productReference = 186477691C51D9FD00444C90 /* FlowFingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1864773D1C51D9FD00444C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					186477441C51D9FD00444C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3MW34677PD;
+					};
+					1864775D1C51D9FD00444C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 26VH82Z38V;
+						TestTargetID = 186477441C51D9FD00444C90;
+					};
+					186477681C51D9FD00444C90 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 26VH82Z38V;
+						TestTargetID = 186477441C51D9FD00444C90;
+					};
+				};
+			};
+			buildConfigurationList = 186477401C51D9FD00444C90 /* Build configuration list for PBXProject "FlowFinger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1864773C1C51D9FD00444C90;
+			productRefGroup = 186477461C51D9FD00444C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186477441C51D9FD00444C90 /* FlowFinger */,
+				1864775D1C51D9FD00444C90 /* FlowFingerTests */,
+				186477681C51D9FD00444C90 /* FlowFingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186477431C51D9FD00444C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186477581C51D9FD00444C90 /* LaunchScreen.storyboard in Resources */,
+				186477551C51D9FD00444C90 /* Assets.xcassets in Resources */,
+				186477531C51D9FD00444C90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1864775C1C51D9FD00444C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186477671C51D9FD00444C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186477411C51D9FD00444C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186477501C51D9FD00444C90 /* ViewController.m in Sources */,
+				1864777D1C51DB2800444C90 /* CustomView.m in Sources */,
+				188AA2551D880C59005932F6 /* GuideViewController.m in Sources */,
+				188AA2581D881D9F005932F6 /* SAPGuidePageViewController.m in Sources */,
+				1864774D1C51D9FD00444C90 /* AppDelegate.m in Sources */,
+				1864774A1C51D9FD00444C90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1864775A1C51D9FD00444C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186477631C51D9FD00444C90 /* FlowFingerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186477651C51D9FD00444C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1864776E1C51D9FD00444C90 /* FlowFingerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186477601C51D9FD00444C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186477441C51D9FD00444C90 /* FlowFinger */;
+			targetProxy = 1864775F1C51D9FD00444C90 /* PBXContainerItemProxy */;
+		};
+		1864776B1C51D9FD00444C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186477441C51D9FD00444C90 /* FlowFinger */;
+			targetProxy = 1864776A1C51D9FD00444C90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186477511C51D9FD00444C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186477521C51D9FD00444C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186477561C51D9FD00444C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186477571C51D9FD00444C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186477701C51D9FD00444C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186477711C51D9FD00444C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186477731C51D9FD00444C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlowFinger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLWFlowFinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		186477741C51D9FD00444C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlowFinger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLWFlowFinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		186477761C51D9FD00444C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowFingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlowFingerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowFinger.app/FlowFinger";
+			};
+			name = Debug;
+		};
+		186477771C51D9FD00444C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowFingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlowFingerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowFinger.app/FlowFinger";
+			};
+			name = Release;
+		};
+		186477791C51D9FD00444C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowFingerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlowFingerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowFinger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1864777A1C51D9FD00444C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowFingerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlowFingerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowFinger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186477401C51D9FD00444C90 /* Build configuration list for PBXProject "FlowFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186477701C51D9FD00444C90 /* Debug */,
+				186477711C51D9FD00444C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186477721C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186477731C51D9FD00444C90 /* Debug */,
+				186477741C51D9FD00444C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186477751C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186477761C51D9FD00444C90 /* Debug */,
+				186477771C51D9FD00444C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186477781C51D9FD00444C90 /* Build configuration list for PBXNativeTarget "FlowFingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186477791C51D9FD00444C90 /* Debug */,
+				1864777A1C51D9FD00444C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1864773D1C51D9FD00444C90 /* Project object */;
+}
