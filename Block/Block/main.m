@@ -9,12 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "SuperBlock.h"
 #import "CopyBlock.h"
+#import "NoCopyBlock.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
         SuperBlock *blockO = [[CopyBlock alloc] init];
+        [blockO mainFunc];
+        
+        blockO = [[NoCopyBlock alloc] init];
         [blockO mainFunc];
     }
     return 0;

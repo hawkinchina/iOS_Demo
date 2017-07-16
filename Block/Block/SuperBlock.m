@@ -10,6 +10,8 @@
 
 @implementation SuperBlock
 
-- (void)mainFunc {}
+- (void)mainFunc {
+    NSLog(@"CLASS_NAME:%@ SEL_NAME:%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
+}
 
 @end

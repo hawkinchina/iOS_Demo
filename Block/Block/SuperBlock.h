@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^blk_t)(id obj);
+
 @interface SuperBlock : NSObject
 
 - (void)mainFunc;

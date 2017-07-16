@@ -7,14 +7,16 @@
 //
 
 #import "CopyBlock.h"
-typedef void (^blk_t)(id obj);
-blk_t blk;
+
 @implementation CopyBlock
 
+blk_t blk;
+
 /**
- block 被 使用copy后会被从栈区复制到堆区，block引用的变量也会被复制到堆区
+ block 被 copy后会被从栈区复制到堆区，block引用的变量也会被复制到堆区,并且block会持有变量
  */
 - (void)mainFunc {
+    [super mainFunc];
     {
         id array = [[NSMutableArray alloc] init];
         blk = [^(id obj){
