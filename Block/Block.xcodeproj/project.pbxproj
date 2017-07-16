@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21380091F1B9CE500A5A740 /* SuperBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E21380081F1B9CE500A5A740 /* SuperBlock.m */; };
+		E213800D1F1B9E7700A5A740 /* CopyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E213800C1F1B9E7700A5A740 /* CopyBlock.m */; };
 		E225C00F1F1B67E1007C0657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E225C00E1F1B67E1007C0657 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E21380071F1B9CE500A5A740 /* SuperBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBlock.h; sourceTree = "<group>"; };
+		E21380081F1B9CE500A5A740 /* SuperBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBlock.m; sourceTree = "<group>"; };
+		E213800A1F1B9D6300A5A740 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E213800B1F1B9E7700A5A740 /* CopyBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyBlock.h; sourceTree = "<group>"; };
+		E213800C1F1B9E7700A5A740 /* CopyBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyBlock.m; sourceTree = "<group>"; };
 		E225C00B1F1B67E1007C0657 /* Block */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Block; sourceTree = BUILT_PRODUCTS_DIR; };
 		E225C00E1F1B67E1007C0657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				E225C00E1F1B67E1007C0657 /* main.m */,
+				E21380071F1B9CE500A5A740 /* SuperBlock.h */,
+				E21380081F1B9CE500A5A740 /* SuperBlock.m */,
+				E213800A1F1B9D6300A5A740 /* PrefixHeader.pch */,
+				E213800B1F1B9E7700A5A740 /* CopyBlock.h */,
+				E213800C1F1B9E7700A5A740 /* CopyBlock.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -121,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E225C00F1F1B67E1007C0657 /* main.m in Sources */,
+				E213800D1F1B9E7700A5A740 /* CopyBlock.m in Sources */,
+				E21380091F1B9CE500A5A740 /* SuperBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +232,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3MW34677PD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Block/PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3MW34677PD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Block/PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -249,6 +265,7 @@
 				E225C0141F1B67E2007C0657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
