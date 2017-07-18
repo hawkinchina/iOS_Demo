@@ -18,7 +18,7 @@ blk_t blk;
 - (void)mainFunc {
     [super mainFunc];
     {
-        id array = [[NSMutableArray alloc] init];
+        id __strong array = [[NSMutableArray alloc] init];
         blk = [^(id obj){
             [array addObject:obj];
             NSLog(@"array count is : %lu",(unsigned long)[array count]);

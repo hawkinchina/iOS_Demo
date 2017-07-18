@@ -106,20 +106,7 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"array count is : %lu",20};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"object at index : %lu is %@",27};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_2 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"1",1};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_3 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"2",1};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_4 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"3",1};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_5 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"4",1};
-
-
-
-
-
-
-
-
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_SuperBlock_365a90_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"CLASS_NAME:%@ SEL_NAME:%@",25};
 
 
 
@@ -95881,70 +95868,11 @@ struct SuperBlock_IMPL {
 /* @end */
 
 
-
-#ifndef _REWRITER_typedef_CopyBlock
-#define _REWRITER_typedef_CopyBlock
-typedef struct objc_object CopyBlock;
-typedef struct {} _objc_exc_CopyBlock;
-#endif
-
-struct CopyBlock_IMPL {
-	struct SuperBlock_IMPL SuperBlock_IVARS;
-};
+// @implementation SuperBlock
 
 
-/* @end */
-
-
-// @implementation CopyBlock
-
-blk_t blk;
-
-
-
-
-
-struct __CopyBlock__mainFunc_block_impl_0 {
-  struct __block_impl impl;
-  struct __CopyBlock__mainFunc_block_desc_0* Desc;
-  id array;
-  __CopyBlock__mainFunc_block_impl_0(void *fp, struct __CopyBlock__mainFunc_block_desc_0 *desc, id _array, int flags=0) : array(_array) {
-    impl.isa = &_NSConcreteStackBlock;
-    impl.Flags = flags;
-    impl.FuncPtr = fp;
-    Desc = desc;
-  }
-};
-static void __CopyBlock__mainFunc_block_func_0(struct __CopyBlock__mainFunc_block_impl_0 *__cself, id obj) {
-  id array = __cself->array; // bound by copy
-
-            ((void (*)(id, SEL, ObjectType))(void *)objc_msgSend)((id)array, sel_registerName("addObject:"), (id)obj);
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_0,(unsigned long)((NSUInteger (*)(id, SEL))(void *)objc_msgSend)((id)array, sel_registerName("count")));
-            if (((NSUInteger (*)(id, SEL))(void *)objc_msgSend)((id)array, sel_registerName("count")) > 1) {
-                NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_1,((NSUInteger (*)(id, SEL))(void *)objc_msgSend)((id)array, sel_registerName("count"))-2,((id (*)(id, SEL, NSUInteger))(void *)objc_msgSend)((id)array, sel_registerName("objectAtIndexedSubscript:"), ((NSUInteger (*)(id, SEL))(void *)objc_msgSend)((id)array, sel_registerName("count")) - 2));
-            }
-        }
-static void __CopyBlock__mainFunc_block_copy_0(struct __CopyBlock__mainFunc_block_impl_0*dst, struct __CopyBlock__mainFunc_block_impl_0*src) {_Block_object_assign((void*)&dst->array, (void*)src->array, 3/*BLOCK_FIELD_IS_OBJECT*/);}
-
-static void __CopyBlock__mainFunc_block_dispose_0(struct __CopyBlock__mainFunc_block_impl_0*src) {_Block_object_dispose((void*)src->array, 3/*BLOCK_FIELD_IS_OBJECT*/);}
-
-static struct __CopyBlock__mainFunc_block_desc_0 {
-  size_t reserved;
-  size_t Block_size;
-  void (*copy)(struct __CopyBlock__mainFunc_block_impl_0*, struct __CopyBlock__mainFunc_block_impl_0*);
-  void (*dispose)(struct __CopyBlock__mainFunc_block_impl_0*);
-} __CopyBlock__mainFunc_block_desc_0_DATA = { 0, sizeof(struct __CopyBlock__mainFunc_block_impl_0), __CopyBlock__mainFunc_block_copy_0, __CopyBlock__mainFunc_block_dispose_0};
-
-static void _I_CopyBlock_mainFunc(CopyBlock * self, SEL _cmd) {
-    ((void (*)(__rw_objc_super *, SEL))(void *)objc_msgSendSuper)((__rw_objc_super){(id)self, (id)class_getSuperclass(objc_getClass("CopyBlock"))}, sel_registerName("mainFunc"));
-    {
-        id __attribute__((objc_ownership(strong))) array = ((NSMutableArray *(*)(id, SEL))(void *)objc_msgSend)((id)((NSMutableArray *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSMutableArray"), sel_registerName("alloc")), sel_registerName("init"));
-        blk = (blk_t)((id (*)(id, SEL))(void *)objc_msgSend)((id)((void (*)(id))&__CopyBlock__mainFunc_block_impl_0((void *)__CopyBlock__mainFunc_block_func_0, &__CopyBlock__mainFunc_block_desc_0_DATA, array, 570425344)), sel_registerName("copy"));
-    }
-    ((void (*)(__block_impl *, id))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, ((NSString *(*)(id, SEL, NSString *))(void *)objc_msgSend)((id)((NSString *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSString"), sel_registerName("alloc")), sel_registerName("initWithString:"), (NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_2));
-    ((void (*)(__block_impl *, id))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, ((NSString *(*)(id, SEL, NSString *))(void *)objc_msgSend)((id)((NSString *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSString"), sel_registerName("alloc")), sel_registerName("initWithString:"), (NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_3));
-    ((void (*)(__block_impl *, id))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, ((NSString *(*)(id, SEL, NSString *))(void *)objc_msgSend)((id)((NSString *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSString"), sel_registerName("alloc")), sel_registerName("initWithString:"), (NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_4));
-    ((void (*)(__block_impl *, id))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, ((NSString *(*)(id, SEL, NSString *))(void *)objc_msgSend)((id)((NSString *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSString"), sel_registerName("alloc")), sel_registerName("initWithString:"), (NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_CopyBlock_c74924_mi_5));
+static void _I_SuperBlock_mainFunc(SuperBlock * self, SEL _cmd) {
+    NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_SuperBlock_365a90_mi_0,NSStringFromClass(((Class (*)(id, SEL))(void *)objc_msgSend)((id)self, sel_registerName("class"))),NSStringFromSelector(_cmd));
 }
 
 // @end
@@ -96021,17 +95949,17 @@ static struct /*_method_list_t*/ {
 	unsigned int entsize;  // sizeof(struct _objc_method)
 	unsigned int method_count;
 	struct _objc_method method_list[1];
-} _OBJC_$_INSTANCE_METHODS_CopyBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+} _OBJC_$_INSTANCE_METHODS_SuperBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
 	sizeof(_objc_method),
 	1,
-	{{(struct objc_selector *)"mainFunc", "v16@0:8", (void *)_I_CopyBlock_mainFunc}}
+	{{(struct objc_selector *)"mainFunc", "v16@0:8", (void *)_I_SuperBlock_mainFunc}}
 };
 
-static struct _class_ro_t _OBJC_METACLASS_RO_$_CopyBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+static struct _class_ro_t _OBJC_METACLASS_RO_$_SuperBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
 	1, sizeof(struct _class_t), sizeof(struct _class_t), 
 	(unsigned int)0, 
 	0, 
-	"CopyBlock",
+	"SuperBlock",
 	0, 
 	0, 
 	0, 
@@ -96039,51 +95967,50 @@ static struct _class_ro_t _OBJC_METACLASS_RO_$_CopyBlock __attribute__ ((used, s
 	0, 
 };
 
-static struct _class_ro_t _OBJC_CLASS_RO_$_CopyBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
-	0, sizeof(struct CopyBlock_IMPL), sizeof(struct CopyBlock_IMPL), 
+static struct _class_ro_t _OBJC_CLASS_RO_$_SuperBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	0, sizeof(struct SuperBlock_IMPL), sizeof(struct SuperBlock_IMPL), 
 	(unsigned int)0, 
 	0, 
-	"CopyBlock",
-	(const struct _method_list_t *)&_OBJC_$_INSTANCE_METHODS_CopyBlock,
+	"SuperBlock",
+	(const struct _method_list_t *)&_OBJC_$_INSTANCE_METHODS_SuperBlock,
 	0, 
 	0, 
 	0, 
 	0, 
 };
 
-extern "C" __declspec(dllimport) struct _class_t OBJC_METACLASS_$_SuperBlock;
 extern "C" __declspec(dllimport) struct _class_t OBJC_METACLASS_$_NSObject;
 
-extern "C" __declspec(dllexport) struct _class_t OBJC_METACLASS_$_CopyBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
+extern "C" __declspec(dllexport) struct _class_t OBJC_METACLASS_$_SuperBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
 	0, // &OBJC_METACLASS_$_NSObject,
+	0, // &OBJC_METACLASS_$_NSObject,
+	0, // (void *)&_objc_empty_cache,
+	0, // unused, was (void *)&_objc_empty_vtable,
+	&_OBJC_METACLASS_RO_$_SuperBlock,
+};
+
+extern "C" __declspec(dllimport) struct _class_t OBJC_CLASS_$_NSObject;
+
+extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_SuperBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
 	0, // &OBJC_METACLASS_$_SuperBlock,
+	0, // &OBJC_CLASS_$_NSObject,
 	0, // (void *)&_objc_empty_cache,
 	0, // unused, was (void *)&_objc_empty_vtable,
-	&_OBJC_METACLASS_RO_$_CopyBlock,
+	&_OBJC_CLASS_RO_$_SuperBlock,
 };
-
-extern "C" __declspec(dllimport) struct _class_t OBJC_CLASS_$_SuperBlock;
-
-extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_CopyBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
-	0, // &OBJC_METACLASS_$_CopyBlock,
-	0, // &OBJC_CLASS_$_SuperBlock,
-	0, // (void *)&_objc_empty_cache,
-	0, // unused, was (void *)&_objc_empty_vtable,
-	&_OBJC_CLASS_RO_$_CopyBlock,
-};
-static void OBJC_CLASS_SETUP_$_CopyBlock(void ) {
-	OBJC_METACLASS_$_CopyBlock.isa = &OBJC_METACLASS_$_NSObject;
-	OBJC_METACLASS_$_CopyBlock.superclass = &OBJC_METACLASS_$_SuperBlock;
-	OBJC_METACLASS_$_CopyBlock.cache = &_objc_empty_cache;
-	OBJC_CLASS_$_CopyBlock.isa = &OBJC_METACLASS_$_CopyBlock;
-	OBJC_CLASS_$_CopyBlock.superclass = &OBJC_CLASS_$_SuperBlock;
-	OBJC_CLASS_$_CopyBlock.cache = &_objc_empty_cache;
+static void OBJC_CLASS_SETUP_$_SuperBlock(void ) {
+	OBJC_METACLASS_$_SuperBlock.isa = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_SuperBlock.superclass = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_SuperBlock.cache = &_objc_empty_cache;
+	OBJC_CLASS_$_SuperBlock.isa = &OBJC_METACLASS_$_SuperBlock;
+	OBJC_CLASS_$_SuperBlock.superclass = &OBJC_CLASS_$_NSObject;
+	OBJC_CLASS_$_SuperBlock.cache = &_objc_empty_cache;
 }
 #pragma section(".objc_inithooks$B", long, read, write)
 __declspec(allocate(".objc_inithooks$B")) static void *OBJC_CLASS_SETUP[] = {
-	(void *)&OBJC_CLASS_SETUP_$_CopyBlock,
+	(void *)&OBJC_CLASS_SETUP_$_SuperBlock,
 };
 static struct _class_t *L_OBJC_LABEL_CLASS_$ [1] __attribute__((used, section ("__DATA, __objc_classlist,regular,no_dead_strip")))= {
-	&OBJC_CLASS_$_CopyBlock,
+	&OBJC_CLASS_$_SuperBlock,
 };
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };
