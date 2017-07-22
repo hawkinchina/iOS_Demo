@@ -106,7 +106,11 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_b06adb_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"Hello, World!",13};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"a = %d",6};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"a = %d",6};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_2 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"a = %d",6};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_3 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"a = %d",6};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_4 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
 
 
 
@@ -95841,42 +95845,58 @@ struct NSXPCListenerEndpoint_IMPL {
 
 
 
-#ifndef _REWRITER_typedef_SuperBlock
-#define _REWRITER_typedef_SuperBlock
-typedef struct objc_object SuperBlock;
-typedef struct {} _objc_exc_SuperBlock;
-#endif
 
-struct SuperBlock_IMPL {
-	struct NSObject_IMPL NSObject_IVARS;
+
+
+void fun(int a) {
+    if (a == 1) {
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_0,a);
+        return;
+    }
+    a = a - 1;
+    fun(a);
+    NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_1,a);
+}
+
+int a = 100;
+void fun1() {
+    if (a == 1) {
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_2,a);
+        return;
+    }
+    a = a - 1;
+    fun1();
+    NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_3,a);
+}
+
+typedef int (*blk_t) (int a , int b);
+
+
+struct __main_block_impl_0 {
+  struct __block_impl impl;
+  struct __main_block_desc_0* Desc;
+  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
+    impl.isa = &_NSConcreteStackBlock;
+    impl.Flags = flags;
+    impl.FuncPtr = fp;
+    Desc = desc;
+  }
 };
+static int __main_block_func_0(struct __main_block_impl_0 *__cself, int a, int b) {
 
+            return a + b;
+        }
 
-// - (void)mainFunc;
-
-/* @end */
-
-
-#ifndef _REWRITER_typedef_CopyBlock
-#define _REWRITER_typedef_CopyBlock
-typedef struct objc_object CopyBlock;
-typedef struct {} _objc_exc_CopyBlock;
-#endif
-
-struct CopyBlock_IMPL {
-	struct SuperBlock_IMPL SuperBlock_IVARS;
-};
-
-
-/* @end */
-
-
+static struct __main_block_desc_0 {
+  size_t reserved;
+  size_t Block_size;
+} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
 int main(int argc, const char * argv[]) {
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+        blk_t blk = ((int (*)(int, int))&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
 
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_b06adb_mi_0);
-        SuperBlock *blockO = ((CopyBlock *(*)(id, SEL))(void *)objc_msgSend)((id)((CopyBlock *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("CopyBlock"), sel_registerName("alloc")), sel_registerName("init"));
-        ((void (*)(id, SEL))(void *)objc_msgSend)((id)blockO, sel_registerName("mainFunc"));
+        int c = ((int (*)(__block_impl *, int, int))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, 1, 2);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_a3fdb5_mi_4,c);
     }
     return 0;
 }
