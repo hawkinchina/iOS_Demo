@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^blk_t)(id obj);
+typedef void (^blk_t0)(id obj);
 
 @interface SuperBlock : NSObject
 

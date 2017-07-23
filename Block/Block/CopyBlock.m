@@ -10,7 +10,7 @@
 
 @implementation CopyBlock
 
-blk_t blk;
+blk_t0 blk;
 
 /**
  block 被 copy后会被从栈区复制到堆区，block引用的变量也会被复制到堆区,并且block会持有变量

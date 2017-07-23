@@ -8,6 +8,9 @@
 
 #import "SuperBlock.h"
 
+typedef void (^blk_t3)(id obj);
 @interface CopyBlock : SuperBlock
+
+@property (nonatomic , strong) blk_t3 blk;
 
 @end

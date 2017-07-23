@@ -15,7 +15,7 @@
  */
 - (void)mainFunc {
     [super mainFunc];
-    blk_t blk1;
+    blk_t0 blk1;
     {
         id __weak array = [[NSMutableArray alloc] init];
         blk1 = ^(id obj){
