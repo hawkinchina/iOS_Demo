@@ -11,6 +11,7 @@
 		E213800D1F1B9E7700A5A740 /* CopyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E213800C1F1B9E7700A5A740 /* CopyBlock.m */; };
 		E21380101F1BAB3900A5A740 /* NoCopyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E213800F1F1BAB3900A5A740 /* NoCopyBlock.m */; };
 		E225C00F1F1B67E1007C0657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E225C00E1F1B67E1007C0657 /* main.m */; };
+		E2CAF7721F2486FD0093F1CC /* SubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CAF7711F2486FD0093F1CC /* SubObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		E213800F1F1BAB3900A5A740 /* NoCopyBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoCopyBlock.m; sourceTree = "<group>"; };
 		E225C00B1F1B67E1007C0657 /* Block */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Block; sourceTree = BUILT_PRODUCTS_DIR; };
 		E225C00E1F1B67E1007C0657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2CAF7701F2486FD0093F1CC /* SubObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubObject.h; sourceTree = "<group>"; };
+		E2CAF7711F2486FD0093F1CC /* SubObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				E213800C1F1B9E7700A5A740 /* CopyBlock.m */,
 				E213800E1F1BAB3900A5A740 /* NoCopyBlock.h */,
 				E213800F1F1BAB3900A5A740 /* NoCopyBlock.m */,
+				E2CAF7701F2486FD0093F1CC /* SubObject.h */,
+				E2CAF7711F2486FD0093F1CC /* SubObject.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				E213800D1F1B9E7700A5A740 /* CopyBlock.m in Sources */,
 				E21380091F1B9CE500A5A740 /* SuperBlock.m in Sources */,
 				E21380101F1BAB3900A5A740 /* NoCopyBlock.m in Sources */,
+				E2CAF7721F2486FD0093F1CC /* SubObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

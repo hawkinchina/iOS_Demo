@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SubObject.h"
 
 typedef void (^blk_t0)(id obj);
 
 @interface SuperBlock : NSObject
+
+@property (nonatomic, strong) SubObject *subObject;
 
 - (void)mainFunc;
 

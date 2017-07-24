@@ -10,6 +10,7 @@
 #import "SuperBlock.h"
 #import "CopyBlock.h"
 #import "NoCopyBlock.h"
+#import "SubObject.h"
 
 //void fun(int a) {
 //    if (a == 1) {
@@ -42,11 +43,6 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-        SuperBlock *blockO = [[CopyBlock alloc] init];
-        [blockO mainFunc];
-        
-        blockO = [[NoCopyBlock alloc] init];
-        [blockO mainFunc];
 //        fun(100);
 //        fun1();
         
@@ -105,6 +101,16 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@",copyBlock);
         };
         copyBlock.blk = [blk6 copy];
+        
+        //引用释放时机
+        NSLog(@" ref start ");
+        NSObject *o;
+        {
+            SuperBlock *superBlock = [[SuperBlock alloc] init];
+            o = superBlock.subObject;
+        }
+        NSLog(@" ref end ");
+        
         
     }
     return 0;
