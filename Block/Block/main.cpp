@@ -106,16 +106,19 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_2 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_3 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_4 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_5 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_6 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_7 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_8 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_9 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_2 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_3 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_4 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_5 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_6 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_7 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_8 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_9 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_10 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%@",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_11 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8," ref start ",11};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_12 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8," ref end ",9};
 
 
 
@@ -95849,6 +95852,72 @@ struct NSXPCListenerEndpoint_IMPL {
 
 
 
+
+#ifndef _REWRITER_typedef_SubObject
+#define _REWRITER_typedef_SubObject
+typedef struct objc_object SubObject;
+typedef struct {} _objc_exc_SubObject;
+#endif
+
+struct SubObject_IMPL {
+	struct NSObject_IMPL NSObject_IVARS;
+};
+
+
+/* @end */
+
+
+typedef void (*blk_t0)(id obj);
+
+
+#ifndef _REWRITER_typedef_SuperBlock
+#define _REWRITER_typedef_SuperBlock
+typedef struct objc_object SuperBlock;
+typedef struct {} _objc_exc_SuperBlock;
+#endif
+
+struct SuperBlock_IMPL {
+	struct NSObject_IMPL NSObject_IVARS;
+};
+
+
+// @property (nonatomic, strong) SubObject *subObject;
+
+// - (void)mainFunc;
+
+/* @end */
+
+typedef void (*blk_t3)(id obj);
+
+#ifndef _REWRITER_typedef_CopyBlock
+#define _REWRITER_typedef_CopyBlock
+typedef struct objc_object CopyBlock;
+typedef struct {} _objc_exc_CopyBlock;
+#endif
+
+struct CopyBlock_IMPL {
+	struct SuperBlock_IMPL SuperBlock_IVARS;
+};
+
+
+// @property (nonatomic , strong) blk_t3 blk;
+
+/* @end */
+
+
+#ifndef _REWRITER_typedef_NoCopyBlock
+#define _REWRITER_typedef_NoCopyBlock
+typedef struct objc_object NoCopyBlock;
+typedef struct {} _objc_exc_NoCopyBlock;
+#endif
+
+struct NoCopyBlock_IMPL {
+	struct SuperBlock_IMPL SuperBlock_IVARS;
+};
+
+
+/* @end */
+
 typedef int (*blk_t) (int a , int b);
 typedef void (*blk_t1) (void);
 
@@ -95897,7 +95966,7 @@ struct __main_block_impl_1 {
 static void __main_block_func_1(struct __main_block_impl_1 *__cself) {
   int d = __cself->d; // bound by copy
 
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_1,d);
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_1,d);
         }
 
 static struct __main_block_desc_1 {
@@ -95920,7 +95989,7 @@ static void __main_block_func_2(struct __main_block_impl_2 *__cself) {
   __Block_byref_d1_0 *d1 = __cself->d1; // bound by ref
 
             (d1->__forwarding->d1) = 12;
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_2,(d1->__forwarding->d1));
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_2,(d1->__forwarding->d1));
         }
 static void __main_block_copy_2(struct __main_block_impl_2*dst, struct __main_block_impl_2*src) {_Block_object_assign((void*)&dst->d1, (void*)src->d1, 8/*BLOCK_FIELD_IS_BYREF*/);}
 
@@ -95948,7 +96017,7 @@ static void __main_block_func_3(struct __main_block_impl_3 *__cself) {
   int *d2 = __cself->d2; // bound by copy
 
             (*d2) = 13;
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_4,(*d2));
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_4,(*d2));
         }
 
 static struct __main_block_desc_3 {
@@ -95969,7 +96038,7 @@ struct __main_block_impl_4 {
 static void __main_block_func_4(struct __main_block_impl_4 *__cself) {
 
             d3 = 14;
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_6,d3);
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_6,d3);
         }
 
 static struct __main_block_desc_4 {
@@ -95990,19 +96059,51 @@ struct __main_block_impl_5 {
 static void __main_block_func_5(struct __main_block_impl_5 *__cself) {
 
             d4 = 15;
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_8,d4);
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_8,d4);
         }
 
 static struct __main_block_desc_5 {
   size_t reserved;
   size_t Block_size;
 } __main_block_desc_5_DATA = { 0, sizeof(struct __main_block_impl_5)};
+
+struct __main_block_impl_6 {
+  struct __block_impl impl;
+  struct __main_block_desc_6* Desc;
+  CopyBlock *copyBlock;
+  __main_block_impl_6(void *fp, struct __main_block_desc_6 *desc, CopyBlock *_copyBlock, int flags=0) : copyBlock(_copyBlock) {
+    impl.isa = &_NSConcreteStackBlock;
+    impl.Flags = flags;
+    impl.FuncPtr = fp;
+    Desc = desc;
+  }
+};
+static void __main_block_func_6(struct __main_block_impl_6 *__cself, id obj) {
+  CopyBlock *copyBlock = __cself->copyBlock; // bound by copy
+
+            NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_10,copyBlock);
+        }
+static void __main_block_copy_6(struct __main_block_impl_6*dst, struct __main_block_impl_6*src) {_Block_object_assign((void*)&dst->copyBlock, (void*)src->copyBlock, 3/*BLOCK_FIELD_IS_OBJECT*/);}
+
+static void __main_block_dispose_6(struct __main_block_impl_6*src) {_Block_object_dispose((void*)src->copyBlock, 3/*BLOCK_FIELD_IS_OBJECT*/);}
+
+static struct __main_block_desc_6 {
+  size_t reserved;
+  size_t Block_size;
+  void (*copy)(struct __main_block_impl_6*, struct __main_block_impl_6*);
+  void (*dispose)(struct __main_block_impl_6*);
+} __main_block_desc_6_DATA = { 0, sizeof(struct __main_block_impl_6), __main_block_copy_6, __main_block_dispose_6};
 int main(int argc, const char * argv[]) {
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+
+
+
+
+
         blk_t blk = ((int (*)(int, int))&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
 
         int c = ((int (*)(__block_impl *, int, int))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, 1, 2);
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_0,c);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_0,c);
 
 
         int d = 10;
@@ -96014,23 +96115,39 @@ int main(int argc, const char * argv[]) {
         __attribute__((__blocks__(byref))) __Block_byref_d1_0 d1 = {(void*)0,(__Block_byref_d1_0 *)&d1, 0, sizeof(__Block_byref_d1_0), 10};
         blk_t1 blk2 = ((void (*)())&__main_block_impl_2((void *)__main_block_func_2, &__main_block_desc_2_DATA, (__Block_byref_d1_0 *)&d1, 570425344));
         ((void (*)(__block_impl *))((__block_impl *)blk2)->FuncPtr)((__block_impl *)blk2);
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_3,(d1.__forwarding->d1));
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_3,(d1.__forwarding->d1));
 
 
         static int d2 = 10;
         blk_t1 blk3 = ((void (*)())&__main_block_impl_3((void *)__main_block_func_3, &__main_block_desc_3_DATA, &d2));
         ((void (*)(__block_impl *))((__block_impl *)blk3)->FuncPtr)((__block_impl *)blk3);
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_5,d2);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_5,d2);
 
 
         blk_t1 blk4 = ((void (*)())&__main_block_impl_4((void *)__main_block_func_4, &__main_block_desc_4_DATA));
         ((void (*)(__block_impl *))((__block_impl *)blk4)->FuncPtr)((__block_impl *)blk4);
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_7,d3);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_7,d3);
 
 
         blk_t1 blk5 = ((void (*)())&__main_block_impl_5((void *)__main_block_func_5, &__main_block_desc_5_DATA));
         ((void (*)(__block_impl *))((__block_impl *)blk5)->FuncPtr)((__block_impl *)blk5);
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_2956e5_mi_9,d4);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_9,d4);
+
+
+        CopyBlock *copyBlock = ((CopyBlock *(*)(id, SEL))(void *)objc_msgSend)((id)((CopyBlock *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("CopyBlock"), sel_registerName("alloc")), sel_registerName("init"));
+        blk_t3 blk6 = ((void (*)(id))&__main_block_impl_6((void *)__main_block_func_6, &__main_block_desc_6_DATA, copyBlock, 570425344));
+        ((void (*)(id, SEL, blk_t3))(void *)objc_msgSend)((id)copyBlock, sel_registerName("setBlk:"), (blk_t3)((id (*)(id, SEL))(void *)objc_msgSend)((id)blk6, sel_registerName("copy")));
+
+
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_11);
+        NSObject *o;
+        {
+            SuperBlock *superBlock = ((SuperBlock *(*)(id, SEL))(void *)objc_msgSend)((id)((SuperBlock *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("SuperBlock"), sel_registerName("alloc")), sel_registerName("init"));
+            o = ((SubObject *(*)(id, SEL))(void *)objc_msgSend)((id)superBlock, sel_registerName("subObject"));
+        }
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_4c_fgfj11vj2t985qr4_0px2sbw0000gn_T_main_5dfa49_mi_12);
+
+
 
     }
     return 0;
